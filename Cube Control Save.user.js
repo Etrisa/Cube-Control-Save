@@ -9,6 +9,9 @@
 // @run-at       document-end
 // ==/UserScript==
 
+// Nice Site
+// https://www.toptal.com/developers/keycode/for/i
+
 document.onkeydown = keydown;
 
 function keydown (evt) {
