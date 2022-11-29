@@ -17,10 +17,12 @@ function keydown (evt) {
         evt.preventDefault();
         //Check if update button exists
         if (document.querySelector("#sysverb_insert")){
+            //Press it
             document.querySelector("#sysverb_insert").click();
         }
         //Check if save button exists
         if (document.querySelector("#sysverb_update_and_stay")){
+            //Press it
             document.querySelector("#sysverb_update_and_stay").click();
         }
         //Alert to let me know it worked, it did, no need for it to be active any more.
