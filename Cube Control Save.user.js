@@ -23,6 +23,10 @@ function keydown (evt) {
             //Press it
             document.querySelector("#sysverb_insert").click();
         }
+        if (document.querySelector("#sysverb_update")){
+            //Press it
+            document.querySelector("#sysverb_update").click();
+        }
         //Check if save button exists
         if (document.querySelector("#sysverb_update_and_stay")){
             //Press it
